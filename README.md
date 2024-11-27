@@ -1,1 +1,2 @@
 # odin-recipes
+This is a practice project from The Odin Project Foundations course. Once it's finished, I'll have sufficient knowledge about creating a website using HTML, CSS and JavaScript (maybe?). Also, I can practice Git to keep a version control for my projects.

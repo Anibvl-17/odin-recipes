@@ -11,19 +11,7 @@ h1 {
 }
 
 h2 {
-    margin: 16px auto;
     text-align: center;
-    padding: 8px;
-    background-color: bisque;
-    border: 2px solid black;
-    width: 200px;
-    background-color: bisque;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-    border: 2px solid black;
 }
 
 li {
@@ -40,4 +28,42 @@ li {
     background-color: rgb(167, 200, 243);
     color: black;
     font-size: 18px;
+}
+
+.description-container {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 50%;
+    height: 330px;
+    padding: 12px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: beige;
+}
+
+.description-container img {
+    border: 2px solid chocolate;
+    margin-left: 12px;
+}
+
+.ingredients-container {
+    padding: 0 12px 12px 0;
+    width: 40%;
+    margin: 12px auto;
+    border: 2px solid black;
+    background-color: beige;
+}
+
+.steps-container {
+    padding: 0 12px 12px 0;
+    width: 40%;
+    margin: 12px auto;
+    border: 2px solid black;
+    background-color: beige;
+}
+
+.source-text {
+    color: gray;
+    text-align: center;
 }
